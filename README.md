@@ -28,7 +28,7 @@ ros2 topic list
 
 ## 2023_2_14
 
-*
+* 노드 만들기
 ```shell
 ros2 pkg create --build-type ament_python my package
 ros2 run my_package mp
