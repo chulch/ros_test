@@ -4,7 +4,7 @@ hello
 
 ---
 
-##2023-02-13
+## 2023-02-13
 
 ---
 
@@ -23,3 +23,15 @@ git config --global user.name "chulch"
 ros2 topic list
 
 ```
+
+
+
+## 2023_2_14
+
+*
+```shell
+ros2 pkg create --build-type ament_python my package
+ros2 run my_package mp
+ros2 topic echo /messagepub
+```
+* 노드등록, 노드에서 토픽보내기
